@@ -1,0 +1,11 @@
+(2) ParallelCollectionRDD[0] at parallelize at LDASuite.scala:46 []
+(2) ParallelCollectionRDD[0] at parallelize at LDASuite.scala:46 []
+(2) MapPartitionsRDD[3] at treeAggregate at LDAOptimizer.scala:479 []
+ |  MapPartitionsRDD[2] at map at LDAOptimizer.scala:479 []
+ |  MapPartitionsRDD[1] at mapPartitions at LDAOptimizer.scala:466 []
+ |  ParallelCollectionRDD[0] at parallelize at LDASuite.scala:46 []
+(2) MapPartitionsRDD[5] at flatMap at LDAOptimizer.scala:482 []
+ |  MapPartitionsRDD[4] at map at LDAOptimizer.scala:482 []
+ |  MapPartitionsRDD[1] at mapPartitions at LDAOptimizer.scala:466 []
+ |      CachedPartitions: 2; MemorySize: 608.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at LDASuite.scala:46 []

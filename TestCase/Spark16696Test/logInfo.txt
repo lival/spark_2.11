@@ -1,0 +1,2001 @@
+(1) MapPartitionsRDD[3] at map at BisectingKMeans.scala:148 []
+ |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+ |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+ |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[9] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[8] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[13] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[12] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[11] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[10] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[17] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[16] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[15] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[14] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[21] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[20] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[19] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[18] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[25] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[24] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[23] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[22] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[29] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[28] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[27] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[26] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[33] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[32] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[31] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[30] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[37] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[36] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[35] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[34] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[41] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[40] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[39] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[38] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[45] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[44] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[43] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[42] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[49] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[48] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[47] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[46] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[53] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[52] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[51] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[50] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[57] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[56] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[55] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[54] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[61] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[60] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[59] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[58] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[65] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[64] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[63] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[62] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[69] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[68] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[67] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[66] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[73] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[72] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[71] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[70] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[77] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[76] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[75] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[74] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[81] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[80] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[79] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[78] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[85] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[84] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[83] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[82] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[89] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[88] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[87] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[86] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[96] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[95] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[94] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[93] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[100] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[99] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[98] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[97] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[104] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[103] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[102] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[101] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[108] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[107] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[106] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[105] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[112] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[111] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[110] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[109] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[116] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[115] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[114] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[113] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[120] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[119] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[118] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[117] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[124] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[123] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[122] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[121] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[128] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[127] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[126] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[125] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[132] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[131] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[130] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[129] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[136] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[135] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[134] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[133] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[140] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[139] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[138] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[137] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[144] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[143] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[142] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[141] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[148] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[147] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[146] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[145] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[152] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[151] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[150] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[149] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[156] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[155] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[154] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[153] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[160] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[159] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[158] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[157] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[164] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[163] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[162] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[161] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[168] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[167] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[166] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[165] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[172] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[171] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[170] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[169] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[179] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[178] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[177] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[176] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[183] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[182] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[181] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[180] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[187] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[186] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[185] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[184] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[191] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[190] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[189] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[188] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[195] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[194] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[193] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[192] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[199] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[198] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[197] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[196] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[203] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[202] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[201] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[200] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[207] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[206] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[205] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[204] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[211] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[210] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[209] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[208] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[215] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[214] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[213] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[212] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[219] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[218] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[217] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[216] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[223] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[222] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[221] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[220] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[227] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[226] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[225] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[224] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[231] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[230] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[229] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[228] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[235] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[234] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[233] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[232] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[239] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[238] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[237] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[236] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[243] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[242] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[241] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[240] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[247] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[246] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[245] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[244] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[251] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[250] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[249] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[248] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[255] at mapValues at BisectingKMeans.scala:265 []
+ |  ShuffledRDD[254] at aggregateByKey at BisectingKMeans.scala:262 []
+ +-(1) MapPartitionsRDD[253] at filter at BisectingKMeans.scala:194 []
+    |  MapPartitionsRDD[252] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[175] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[174] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[173] at map at BisectingKMeans.scala:339 []
+    |  ZippedPartitionsRDD2[92] at zip at BisectingKMeans.scala:204 []
+    |  MapPartitionsRDD[91] at keys at BisectingKMeans.scala:202 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[90] at map at BisectingKMeans.scala:339 []
+    |  MapPartitionsRDD[7] at map at BisectingKMeans.scala:153 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[6] at map at BisectingKMeans.scala:152 []
+    |  ZippedPartitionsRDD2[5] at zip at BisectingKMeans.scala:152 []
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+    |  MapPartitionsRDD[4] at map at BisectingKMeans.scala:151 []
+    |      CachedPartitions: 1; MemorySize: 64.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+    |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+    |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+    |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []
+(1) MapPartitionsRDD[259] at map at BisectingKMeansModel.scala:94 []
+ |  MapPartitionsRDD[2] at map at BisectingKMeansExample.scala:44 []
+ |      CachedPartitions: 1; MemorySize: 376.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  data/mllib/kmeans_data.txt MapPartitionsRDD[1] at textFile at BisectingKMeansExample.scala:44 []
+ |  data/mllib/kmeans_data.txt HadoopRDD[0] at textFile at BisectingKMeansExample.scala:44 []

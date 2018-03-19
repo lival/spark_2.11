@@ -1,0 +1,77 @@
+(2) MapPartitionsRDD[1] at map at GeneralizedLinearAlgorithm.scala:204 []
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+(2) MapPartitionsRDD[2] at filter at DataValidators.scala:40 []
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 1; MemorySize: 371.1 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 [Memory Deserialized 1x Replicated]
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 [Memory Deserialized 1x Replicated]
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[5] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[4] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[7] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[6] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[9] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[8] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[11] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[10] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[13] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[12] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[15] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[14] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[17] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[16] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[19] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[18] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[21] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[20] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[23] at treeAggregate at GradientDescent.scala:239 []
+ |  PartitionwiseSampledRDD[22] at sample at GradientDescent.scala:238 []
+ |  MapPartitionsRDD[3] at map at GeneralizedLinearAlgorithm.scala:291 []
+ |      CachedPartitions: 2; MemorySize: 1054.7 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  ParallelCollectionRDD[0] at parallelize at SVMSuite.scala:83 []
+ |      CachedPartitions: 2; MemorySize: 742.2 KB; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+(2) MapPartitionsRDD[26] at mapPartitions at GeneralizedLinearAlgorithm.scala:70 []
+ |  MapPartitionsRDD[25] at map at SVMSuite.scala:96 []
+ |  ParallelCollectionRDD[24] at parallelize at SVMSuite.scala:92 []
+(2) MapPartitionsRDD[28] at mapPartitions at GeneralizedLinearAlgorithm.scala:70 []
+ |  MapPartitionsRDD[27] at map at SVMSuite.scala:101 []
+ |  ParallelCollectionRDD[24] at parallelize at SVMSuite.scala:92 []
+(2) MapPartitionsRDD[30] at mapPartitions at GeneralizedLinearAlgorithm.scala:70 []
+ |  MapPartitionsRDD[29] at map at SVMSuite.scala:106 []
+ |  ParallelCollectionRDD[24] at parallelize at SVMSuite.scala:92 []

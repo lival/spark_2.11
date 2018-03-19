@@ -1,0 +1,5 @@
+(1) ShuffledRDD[4] at groupByKey at SparkCountTest.scala:14 []
+ +-(1) MapPartitionsRDD[3] at map at SparkCountTest.scala:12 []
+    |  MapPartitionsRDD[2] at map at SparkCountTest.scala:12 []
+    |  MapPartitionsRDD[1] at filter at SparkCountTest.scala:12 []
+    |  ParallelCollectionRDD[0] at makeRDD at SparkCountTest.scala:12 []

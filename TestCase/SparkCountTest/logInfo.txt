@@ -1,0 +1,11 @@
+(1) ShuffledRDD[4] at groupByKey at SparkCountTest.scala:14 []
+ +-(1) MapPartitionsRDD[3] at map at SparkCountTest.scala:12 []
+    |  MapPartitionsRDD[2] at map at SparkCountTest.scala:12 []
+    |  MapPartitionsRDD[1] at filter at SparkCountTest.scala:12 []
+    |  ParallelCollectionRDD[0] at makeRDD at SparkCountTest.scala:12 []
+(1) CoalescedRDD[5] at coalesce at SparkCountTest.scala:15 []
+ |  MapPartitionsRDD[3] at map at SparkCountTest.scala:12 []
+ |      CachedPartitions: 1; MemorySize: 88.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[2] at map at SparkCountTest.scala:12 []
+ |  MapPartitionsRDD[1] at filter at SparkCountTest.scala:12 []
+ |  ParallelCollectionRDD[0] at makeRDD at SparkCountTest.scala:12 []

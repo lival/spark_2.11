@@ -1,0 +1,146 @@
+(1) ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[2] at map at Layer.scala:812 [Disk Memory Deserialized 1x Replicated]
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 [Disk Memory Deserialized 1x Replicated]
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 [Disk Memory Deserialized 1x Replicated]
+(1) MapPartitionsRDD[3] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[4] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[5] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[6] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[7] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[8] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[9] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[10] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[11] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[12] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[13] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[14] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[15] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[16] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[17] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[18] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[19] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[20] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[21] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[22] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[23] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[24] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[25] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[26] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[27] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[28] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[29] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[30] at treeAggregate at LBFGS.scala:244 []
+ |  MapPartitionsRDD[2] at map at Layer.scala:812 []
+ |      CachedPartitions: 1; MemorySize: 200.0 B; ExternalBlockStoreSize: 0.0 B; DiskSize: 0.0 B
+ |  MapPartitionsRDD[1] at mapPartitions at Layer.scala:622 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
+(1) MapPartitionsRDD[31] at map at ANNSuite.scala:49 []
+ |  ParallelCollectionRDD[0] at parallelize at ANNSuite.scala:39 []
